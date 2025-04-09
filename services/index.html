@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hola - RaicesRD</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/domi.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/domi.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/domi.png"
+    />
+    <link rel="manifest" href="/assets/img/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/img/domi.png"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/assets/img/domi.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/assets/img/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="keywords"
+      content="LCGWealth, Luke Cadby-Gledhill, finance, 2plan, Pensions & Retirement Planning, Savings & Investments, Personal & Family Protección, IHT & Estate Planning, Business & Corporate Advice, Hipotetico, Norfolk, Charted Fiancial Planner"
+    />
+    <meta
+      property="og:title"
+      content="Our Services — Luke Cadby-Gledhill Wealth"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lcgwealth.co.uk" />
+    <meta property="og:image" content=".././assets/img/luke-and-scoobs.webp" />
+    <meta
+      property="og:description"
+      content="Bespoke Independent Financial Planning
+Tailored solutions to achieve your long-term financial goals together"
+    />
+    <meta
+      name="description"
+      content="Bespoke Independent Financial Planning
+Tailored solutions to achieve your long-term financial goals together"
+    />
+  </head>
+  <body class="flex flex-col page-center">
+    <!-- Navigation bar -->
+    <nav class="shadow-md page-center bg-green relative fixed">
+      <div class="flex space-between container">
+        <a href="/" class="hover-button">
+          <img
+            src=".././assets/img/ppp.webp"
+            alt="Luke Cadby-Gledhill Wealth logo"
+            class="navigation-logo"
+          />
+        </a>
+        <div class="flex flex-col align-vertically gap-md">
+          <div class="flex space-right gap-md navigation-buttons">
+            <a
+              style="color: black; font-weight: 550"
+              href="https://access.2plan.com"
+              class="btn btn-lg bg-off-white shadow-sm rounded-md hover-button"
+              target="_blank"
+              >Portal del cliente</a
+            >
+            <a
+              style="color: black; font-weight: 550"
+              href="/contact"
+              class="btn btn-lg bg-off-white shadow-sm rounded-md hover-button"
+              >Consulta</a
+            >
+          </div>
+          <div>
+            <div class="navigation-menu">
+              <button aria-label="Toggle menu">
+                <span class="navigation-bar"></span>
+                <span class="navigation-bar"></span>
+                <span class="navigation-bar"></span>
+              </button>
+            </div>
+            <ul class="flex gap-md navigation-links">
+              <li class="navigation-link hover-underline">
+                <a href="/">Hogar</a>
+              </li>
+              <li class="navigation-link hover-underline">
+                <a href="/about">Sobre nosotros</a>
+              </li>
+              <li class="relative navigation-link">
+                <a
+                  href="/services"
+                  class="services-dropdown-link hover-underline"
+                  >Nuestros servicios</a
+                >
+                <div
+                  class="services-dropdown-content flex flex-col gap-sm shadow-md hide"
+                >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/planificacion"
+                    >Pensiones y planificación de la actividad</a
+                  >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/Donativos"
+                    >Ahorros e inversiones</a
+                  >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/Protección"
+                    >Protección de datos</a
+                  >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/Estado"
+                    >Planificación</a
+                  >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/Business"
+                    >Asesoramiento</a
+                  >
+                  <a
+                    class="services-dropdown-link hover-underline"
+                    href="/Hipotetico"
+                    >Hipotetico</a
+                  >
+                </div>
+              </li>
+              <li class="navigation-link hover-underline">
+                <a href="/ComoTrabajamos">Cómo trabajamos</a>
+              </li>
+              <li class="navigation-link hover-underline">
+                <a href="/contact">Contacto</a>
+              </li>
+              <li class="navigation-link hover-underline md-hide">
+                <a
+                  href="https://access.2plan.com"
+                  target="_blank"
+                  class="md-hide"
+                  >Portal del Cliente</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Image -->
+    <div class="image-container">
+      <img
+        src=".././assets/img/Fundacion.webp"
+        alt="photo of a meeting table"
+        class="our-services-image"
+      />
+      <h1 class="overlay-text">SOBRE</h1>
+    </div>
+    <section class="container relative">
+      <div class="divider-block">
+        <div
+          class="grid grid-col-3 gap-md w-100 landing-explore-cards services"
+        >
+          <a
+            href="/planificacion"
+            class="shadow-md hover-button bg-off-white"
+          >
+            <img
+              src=".././planificacion/img/pxfuel.jpg"
+              alt="people at an office meeting"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading">Pensiones y planificación de la actividad</span>
+          </a>
+          <a href="/Donativos" class="shadow-md hover-button">
+            <img
+              src=".././Donativos/img/pxfuel.jpg"
+              alt="person putting money into piggy bank"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading">Ahorros e inversiones</span>
+          </a>
+          <a href="/Protección" class="shadow-md hover-button">
+            <img
+              src=".././Protección/img/pxfuel.jpg"
+              alt="a dog on the sofa"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading"
+              >Protección de datos</span
+            >
+          </a>
+          <a href="/Estado" class="shadow-md hover-button">
+            <img
+              src=".././Estado/img/pxfuel.jpg"
+              alt="Elderly couple holding hands"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading">planificación</span>
+          </a>
+          <a href="/Business" class="shadow-md hover-button">
+            <img
+              src=".././Business/img/pxfuel.jpg"
+              alt="city networks lines"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading">Asesoramiento</span>
+          </a>
+          <a href="/Hipotetico" class="shadow-md hover-button">
+            <img
+              src=".././Hipotetico/img/pxfuel.jpg"
+              alt="lasercut house keychain"
+              class="w-100"
+              loading="lazy"
+            />
+            <span class="services-subheading">hipotetico</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-values-section mb-4 relative">
+      <div class="page-center">
+        <div class="container">
+          <div class="our-value-title">
+            <h2>Nuestros valores</h2>
+          </div>
+          <img
+            src=".././assets/img/logo-minimal.png"
+            alt=""
+            class="logo-background"
+          />
+          <div
+            class="flex flex-row flex-wrap align-vertically flex-stretch w-100 gap-md"
+          >
+            <div class="value-grid-card relative">
+              <div
+                style="float: right"
+                class="box py-4 px-8 flex flex-row flex-span-2 gap-md align-center align-horizontally h-100"
+              >
+                <div></div>
+                <h3>Desde cualquier momento y en cualquier lugar</h3>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="M480-260q68 0 123.5-38.5T684-400H276q25 63 80.5 101.5T480-260ZM312-520l44-42 42 42 42-42-84-86-86 86 42 42Zm250 0 42-42 44 42 42-42-86-86-84 86 42 42ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="value-grid-card relative">
+              <div
+                class="box py-4 px-8 flex flex-row flex-span-2 gap-md align-center align-horizontally h-100"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"
+                  />
+                </svg>
+
+                <h3>Disponibilidad en línea, por teléfono y presencial</h3>
+              </div>
+            </div>
+            <div class="value-grid-card relative">
+              <div
+                style="float: right"
+                class="box py-4 px-8 flex flex-row flex-span-2 gap-md align-center align-horizontally h-100"
+              >
+                <div></div>
+                <h3>Consulta gratuita</h3>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="M500-482q29-32 44.5-73t15.5-85q0-44-15.5-85T500-798q60 8 100 53t40 105q0 60-40 105t-100 53Zm220 322v-120q0-36-16-68.5T662-406q51 18 94.5 46.5T800-280v120h-80Zm80-280v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Zm-480-40q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM0-160v-112q0-34 17.5-62.5T64-378q62-31 126-46.5T320-440q66 0 130 15.5T576-378q29 15 46.5 43.5T640-272v112H0Zm320-400q33 0 56.5-23.5T400-640q0-33-23.5-56.5T320-720q-33 0-56.5 23.5T240-640q0 33 23.5 56.5T320-560ZM80-240h480v-32q0-11-5.5-20T540-306q-54-27-109-40.5T320-360q-56 0-111 13.5T100-306q-9 5-14.5 14T80-272v32Zm240-400Zm0 400Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="value-grid-card relative">
+              <div
+                class="box py-4 px-8 flex flex-row flex-span-2 gap-md align-center align-horizontally h-100"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-200v-80h320v80H320Zm10-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Zm24-80h252q45-32 69.5-79T700-580q0-92-64-156t-156-64q-92 0-156 64t-64 156q0 54 24.5 101t69.5 79Zm126 0Z"
+                  />
+                </svg>
+                <h3>Conocimiento altamente experimentado</h3>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-cta-wrapper">
+      <section class="call-to-action page-center">
+        <div
+          class="container flex flex-col gap-sm align-center align-vertically"
+        >
+          <h2 class="uppercase">¿Necesita ayuda?</h2>
+          <a href="/contact" class="shadow-md hover-button">Ponte en contacto</a>
+        </div>
+      </section>
+
+      <footer class="page-center footer-background">
+        <div class="container grid grid-col-6 gap-md footer-alignment">
+          <div class="grid-span-3 flex flex-col gap-md flex-equal">
+            <div class="flex flex-row gap-md footer-split">
+              <div>
+                <h2>Ponte en contacto con nosotros</h2>
+                <ul class="social-links">
+                  <li>
+                    <a href="tel:+3900000"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="#e8eaed"
+                      >
+                        <path
+                          d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"
+                        /></svg
+                      ><span class="hover-underline"
+                        >+39000000</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:demo1@2plan.com"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="#e8eaed"
+                      >
+                        <path
+                          d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"
+                        /></svg
+                      ><span class="hover-underline"
+                        >demo1@2plan.com</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      ><svg
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M29.5385 0H2.46154C1.10769 0 0 1.10769 0 2.46154V29.5385C0 30.8923 1.10769 32 2.46154 32H29.5385C30.8923 32 32 30.8923 32 29.5385V2.46154C32 1.10769 30.8923 0 29.5385 0ZM9.61969 27.0769H4.92308V11.9692H9.61969V27.0769ZM7.23446 10.1157C5.57415 10.1157 4.46523 8.93908 4.49969 7.48431C4.46523 5.96185 5.57415 4.81846 7.26892 4.81846C8.96615 4.81846 10.0394 5.96185 10.0738 7.48431C10.0751 8.93908 8.96738 10.1157 7.23446 10.1157ZM27.0769 27.0769H22.3815V18.7052C22.3815 16.7582 21.7009 15.4302 20.0012 15.4302C18.7052 15.4302 17.9323 16.3262 17.6234 17.1914C17.5003 17.4695 17.4388 17.9335 17.4388 18.3643V27.0769H12.7422V16.7902C12.7422 14.9046 12.6806 13.2985 12.6191 11.9705H16.6966L16.9132 14.0406H17.0068C17.6246 13.0818 19.1692 11.6308 21.6714 11.6308C24.7606 11.6308 27.0769 13.6689 27.0769 18.1182V27.0769Z"
+                          fill="white"
+                        />
+                      </svg>
+                      <span class="hover-underline">Linkedin</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2>Información Importante</h2>
+                <ul>
+                  <li>
+                    <a
+                      href="/docs/client-agreement.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >Acuerdo del cliente</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/docs/best-execution-policy.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >Política</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/docs//client-classification.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >Clasificación de donantes</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/docs/conflicts-of-interest-policy.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >Política de conflictos de intereses</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/docs/your-guide-to-making-a-complaint.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >Su guía para presentar una queja</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/docs/privacy.pdf"
+                      target="_blank"
+                      class="hover-underline"
+                      >política de privacidad</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>
+                RAICES PR - MARCA PROPIA SIN FINES DE LUCRO
+                <a href="https://www.2plan.com" class="hover-underline"
+                  >(www.2plan.com)</a
+                >
+                Autorizada y regulada por (Entidad pr)
+                <a href="https://google.com" class="hover-underline"
+                  >(google.com)</a
+                >
+                Numeor de referencia ley, información contenida en la web
+                está sujeta al regime del país ( habitado) según la ley.
+                por la entidad TAL, dirección y númeor de contacto
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <h2>Enlaces útiles</h2>
+            <ul>
+              <li><a href="/" class="hover-underline">Home</a></li>
+              <li><a href="/about" class="hover-underline">Sobre nosotros</a></li>
+              <li>
+                <a href="/services" class="hover-underline">Sobre nosotros</a>
+              </li>
+              <li>
+                <a href="/ComoTrabajamos" class="hover-underline">Cómo trabajamos</a>
+              </li>
+              <li><a href="/contact" class="hover-underline">Contacto</a></li>
+              <li>
+                <a
+                  href="/contact/index.html"
+                  class="hover-underline"
+                  target="_blank"
+                  >Portal del cliente</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="grid-span-2 flex flex-row space-between align-end mw-100 footer-images gap-md"
+          >
+            <a href="https://2plan.com" target="_blank" class="hover-button">
+              <img
+                src="/assets/img/pngwing.com (1).png"
+                alt="2plan logo"
+                loading="lazy"
+              />
+            </a>
+            <a href="/" target="_blank" class="hover-button">
+              <img
+                src="/assets/img/pngwing.com (2).png"
+                alt="LGC Wealth logo"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://www.fca.org.uk"
+              target="_blank"
+              class="hover-button"
+            >
+              <img
+                src="/assets/img/logord.jpeg"
+                alt="Financial Planner Charted logo"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <button
+      class="fixed scroll-to-top flex shadow-md hover-button"
+      aria-label="Scroll to the top of the page"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="24px"
+        viewBox="0 -960 960 960"
+        width="24px"
+      >
+        <path
+          d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"
+        />
+      </svg>
+    </button>
+  </body>
+</html>
